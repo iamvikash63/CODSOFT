@@ -1,0 +1,141 @@
+/*nav*/
+@media (max-width:929px) {
+    .nav-a-container{
+        display: none;
+    }
+    
+}
+@media (max-width:380px) {
+  
+   .counter1,.about-heading{
+        
+        font-size: 1.5rem;
+    }
+    .ft-bio,.ft-link,.ft-contact{
+        width: 200px;
+    }
+    
+    .ft-bio,.ft-link,.ft-contact{
+        width: 400px;
+    }
+   
+}
+@media (max-width:500px) {
+    .projec-img img{
+   width: 100%;
+        height: auto;
+    }
+    
+}
+
+@media (max-width:425px) {
+    .Services-heading h1{
+        font-size: 1.5rem;
+    }
+    .about-me-image img,.header-image{
+        width: 100%;
+        height: auto;
+    }
+    .Services-heading{
+      gap: 20px;
+      padding: 10px;
+      align-items: center;
+    }
+    .nav-div{
+        width: 95%;
+    }
+    .skills-cotainer h1,.skill-image h1{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .project-heading h3{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .project-heading{
+        width: 250px;
+    }
+    .project-tag p{
+font-size: 0.5rem;
+    }
+    .projects-link{
+        width: 50px;
+    }
+    .Services-main-hd{
+        padding: 10px;
+    }
+    .header-content-heading{
+     
+        font-size: 2rem;
+    }
+    .Services-span{
+        font-size: 1.4rem;
+    }
+    .edu-sec h1{
+        font-size: 1.5rem;
+    }
+    .price-top-div-top-cont img{
+        
+        height: 20px;
+    }
+    .contact-container{
+        margin: 10px;
+    }
+    .main_reviews_slide,.reviews-slider{
+        padding: 10px;
+    }
+    .reviewscn{
+        padding: 10px;
+    }
+    .reviews-slider i{
+        padding: 5px;
+        font-size: medium;
+    }
+    .footer-link-sec{
+        padding: 30px 0px 30px 0px;
+    }
+    .footer h4{
+        padding: 10px;
+    }
+    .price-hd-img-div h3{
+        font-size: medium;
+        font-weight: 300;
+        width: 100%;
+    }
+
+}
+@media (min-width:425px) {
+.second-nav{
+    display: none;
+}
+
+}
+
+@media (max-width:850px) {
+    .main-header{
+        flex-wrap: wrap;
+    }
+    .Services-div{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:947px) {
+    .about-me-container{
+        flex-direction: column-reverse;
+    }
+    .skill-content{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .ft-container{
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (max-width:612px) {
+    .edu-container{
+        flex-wrap: wrap;
+    }
+}
