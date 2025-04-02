@@ -1,0 +1,56 @@
+
+body {
+
+    line-height: 1.6;
+    font-family: "Rubik";
+    background-color: rgb(231, 231, 217);
+    
+}
+p{
+   
+    color: black;
+}
+
+.blog-header{
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.main-content{
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    
+}
+article {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+   
+    width: 60%;
+    box-shadow: 1px 1px 10px rgb(104, 104, 104);
+}
+
+
+.blogs-ul{
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.blog-header img{
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px black;
+}
+summary{
+    width: 30%;
+    padding: 20px;
+    background-color:antiquewhite;
+    height: max-content;
+    box-shadow: 1px 1px 10px rgb(104, 104, 104);
+    position: sticky;
+    top: 85px;
+}
+.summary li{
+    font-weight: 500;
+}

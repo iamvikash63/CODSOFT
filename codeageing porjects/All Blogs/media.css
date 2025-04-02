@@ -1,0 +1,15 @@
+@media (max-width:843px) {
+    .blog-header img{
+        height: auto;
+        width: 100%;
+    }
+}
+@media (max-width:843px) {
+   summary{
+    display: none;
+   }
+   .artc{
+width: 90%;
+padding: 30px;
+   }
+}
